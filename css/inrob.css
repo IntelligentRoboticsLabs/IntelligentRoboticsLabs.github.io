@@ -697,7 +697,7 @@ section#lab-intro {
   background-position: center;
 }
 
-section#team, section#research {
+section#team, section#research, section#gentlebots {
   padding-top: 10%
 }
 
@@ -763,6 +763,22 @@ section#contact span {
   position: absolute;
   top: 30%;
   padding-left: 80%;
+}
+
+.row-gentlebots{
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20%;
+  padding-left: 20%;
+  padding-bottom: 5%;
+}
+
+.col-gentlebots{
+  padding-top: 5%;
+}
+
+.img-gentlebots{
+  width: 40%;
 }
 
 footer {
