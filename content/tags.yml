@@ -1,9 +1,9 @@
-- name: ROS
+- name: Reception Assistant Robot
   color: "#007acc"
   icon: ./assets/images/ros_logo.jpeg
   featured: true
 
-- name: ROS2
+- name: Robobo
   color: "#007acc"
   icon: ./assets/images/ros2_logo.png
   featured: true
