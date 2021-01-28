@@ -67,6 +67,7 @@ module.exports = {
           icon: `${__dirname}/content/assets/images/intellrobotslab_icon.png`
         }
       }
-    }
+    },
+    `gatsby-plugin-fontawesome-css`
   ]
 };

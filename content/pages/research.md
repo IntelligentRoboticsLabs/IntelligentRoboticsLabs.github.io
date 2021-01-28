@@ -1,7 +1,7 @@
 ---
-title: Courses
-path: "/courses"
-tags: ["Courses"]
+title: Research
+path: "/research"
+tags: ["Research"]
 excerpt: Sample courses page.
 ---
 
