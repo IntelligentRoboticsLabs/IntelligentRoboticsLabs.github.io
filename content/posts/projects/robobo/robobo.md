@@ -5,7 +5,7 @@ tags: ["ROS", "ROS2"]
 featuredImage: "./robobo.png"
 excerpt: Robobo project combines a simple mobile base with a smartphone to create complete mobile educational robots.
 created: 2021-01-19
-#updated: 2020-07-09
+updated: 2020-07-09
 ---
 
 [Robobo project](https://theroboboproject.com/en/?lang=en) combines a simple mobile base with a smartphone to create complete mobile educational robots. The framework is organized into three skill levels:

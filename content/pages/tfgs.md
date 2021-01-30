@@ -1,7 +1,7 @@
 ---
-title: Research
-path: "/research"
-tags: ["Research"]
+title: TFGs
+path: "/tfgs"
+tags: ["TFGs"]
 excerpt: Sample courses page.
 ---
 

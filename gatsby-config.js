@@ -24,8 +24,12 @@ module.exports = {
         path: '/projects'
       },
       {
-        name: 'Research',
-        path: '/research'
+        name: 'Publications',
+        path: '/publications'
+      },
+      {
+        name: 'TFGs',
+        path: '/tfgs'
       },
       {
         name: 'Contact',
