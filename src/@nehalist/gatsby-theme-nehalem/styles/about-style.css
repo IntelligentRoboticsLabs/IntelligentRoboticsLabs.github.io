@@ -67,6 +67,11 @@ main p {
   margin: 0px;
 }
 
+.map-tittle p {
+  font-size: 20px;
+  color: #8d8281;
+}
+
 iframe {
   width: 100%;
 }

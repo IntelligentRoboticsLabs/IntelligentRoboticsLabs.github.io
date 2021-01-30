@@ -16,8 +16,8 @@ module.exports = {
         path: '/'
       },
       {
-        name: 'About Us',
-        path: '/about'
+        name: 'Members',
+        path: '/members'
       },
       {
         name: 'Projects',
