@@ -1,4 +1,4 @@
-# ros_courses_web
+# ir_lab_web
 Web page for future ROS courses
 
 **¿How template works?**
