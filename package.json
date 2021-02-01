@@ -20,9 +20,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@fortawesome/react-fontawesome": "^0.1.14",
     "@nehalist/gatsby-theme-nehalem": "^1.0.3",
     "formik": "^2.1.4",
     "gatsby": "^2.13.55",
+    "gatsby-plugin-fontawesome-css": "^1.0.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-google-forms": "^1.0.3",

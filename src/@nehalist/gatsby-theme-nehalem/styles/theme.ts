@@ -1,5 +1,5 @@
 import {DefaultTheme} from "@nehalist/gatsby-theme-nehalem/src/styles/default-theme";
-var backgroundUrl = require('../../../../content/assets/images/actros.png');
+var backgroundUrl = require('../../../../content/assets/images/intellrobotslab.png');
 
 
 const Theme: DefaultTheme = {
@@ -24,9 +24,9 @@ const Theme: DefaultTheme = {
       width: `1260px`,
     },
     header: {
-      height: `370px`,
+      height: `300px`,
       //background: `linear-gradient(-45deg, #761e6d, #e61a0c) repeat scroll 0 0 transparent`,
-      background: `#ffffff url(${ backgroundUrl }) 50% 30%/52% no-repeat`,
+      background: `grey url(${ backgroundUrl }) 50% 30%/52% no-repeat`,
     },
   },
 };

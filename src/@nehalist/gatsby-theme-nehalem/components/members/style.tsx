@@ -28,7 +28,8 @@ export const MainDescription = styled.article`
 
 export const Grid = styled.article`
   margin-bottom: 10px;
-  margin-top: 0px;
+  margin-top: 10%;
+  margin-bottom: 5%;
   padding: 0px;
   max-width: 100%;
   margin-left: auto;
@@ -41,6 +42,7 @@ export const GridImg = styled.article`
   display: inline-block;
   position: relative;
   margin: 0px;
+  margin-bottom: 5%;
   padding: 0px;
 `;
 
