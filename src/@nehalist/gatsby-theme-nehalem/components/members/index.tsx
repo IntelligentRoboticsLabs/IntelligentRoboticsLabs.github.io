@@ -115,7 +115,7 @@ export const Members = () => (
         </div>
         <div class="definition">
           <p>
-            <strong>Project Engineer</strong>
+            <strong>Assistant Professor</strong>
           </p>
         </div>
       </GridImg>
