@@ -25,7 +25,11 @@ En este trabajo se obtendrán conocimientos del funcionamiento de ROS2, se progr
 ## Tutores
 Jonatan Ginés Clavero y Manuel Fernandez Carmona.
 
-<br><br>
+<br> 
+
+====== 
+
+<br>
 
 # Construcción y despliegue del robot Reachy
 Keywords: Impresion3D, electrónica, ROS2, robot social, diseño 3D
@@ -45,7 +49,11 @@ En este trabajo se potenciarán las habilidades del alumno para construir un rob
 ## Tutores
 Jonatan Ginés Clavero y Francisco Martín Rico
 
-<br><br>
+<br> 
+
+====== 
+
+<br>
 
 # Construcción de un rover espacial
 Keywords: robótica, impresion3D, electrónica, ROS2
@@ -66,7 +74,11 @@ El proyectando adquirirá aquí conocimientos avanzados sobre la construcción d
 ## Tutores
 Manuel Fernandez Carmona
 
-<br><br>
+<br> 
+
+====== 
+
+<br>
 
 # Desarrollo de un sensor RFID UHF para ROS2
 Keywords: electrónica, ROS2, RFID
@@ -85,7 +97,11 @@ El alumno adquirirá competencias avanzadas en diseño electrónico, desarrollo 
 ## Tutores
 Manuel Fernandez Carmona
 
-<br><br>
+<br> 
+
+====== 
+
+<br>
 
 # Despliegue y gestión de una red de sensores inalámbrica mediante robots Kobuki en mROS
 Keywords: mROS, robótica de enjambres, redes de sensores
@@ -106,7 +122,11 @@ Los alumnos adquirirán aquí conocimentos avanzados de redes de sensores, aplic
 ## Tutores
 Manuel Fernandez Carmona
 
-<br><br>
+<br> 
+
+====== 
+
+<br>
 
 # Recordando invitados, desarrollo de base de datos de características humanas.
 Keywords: ROS2, C++, python, deep learning, visión por computador, base de datos, robot social, interacción humano-robot
@@ -129,7 +149,11 @@ En este trabajo se potenciarán las habilidades del alumno para integrar compone
 ## Tutores
 Jonatan Ginés Clavero y Jose Miguel Guerrero Hernández
 
-<br><br>
+<br> 
+
+====== 
+
+<br>
 
 # Navegación social, sistema para atender a personas que reclamen nuestra atención.
 Keywords: ROS2, C++, navegación, deep learning, visión por computador, openpose, DialogFlow, robot social, interacción humano-robot
@@ -149,7 +173,11 @@ En este trabajo se potenciarán las habilidades del alumno para integrar compone
 ## Tutores
 Jonatan Ginés Clavero y Francisco Martín Rico
 
-<br><br>
+<br> 
+
+====== 
+
+<br>
 
 # Nav2 Controller con Virtual Force Field (VFF)
 Keywords: Robótica Móvil, Navegación, ROS2
@@ -166,7 +194,11 @@ Nav2 es el software de navegación de robots que, como fue su sucesor move_base,
 ## Tutores
 Francisco Martín Rico
 
-<br><br>
+<br> 
+
+====== 
+
+<br>
 
 # Nav2 Planner con A
 Keywords: Robótica Móvil, Navegación, ROS2
@@ -183,7 +215,11 @@ Nav2 es el software de navegación de robots que, como fue su sucesor move_base,
 ## Tutores
 Francisco Martín Rico
 
-<br><br>
+<br> 
+
+====== 
+
+<br>
 
 # Visualizador para PlanSys2
 Keywords: AI Planning, ROS2
@@ -200,7 +236,11 @@ PlanSys2 es el software de planificación con PDDL, sucesor de ROSPlan, que aspi
 ## Tutores
 Francisco Martín Rico
 
-<br><br>
+<br> 
+
+====== 
+
+<br>
 
 # Nuevo plan solver para PlanSys2
 Keywords: AI Planning, ROS2
@@ -217,7 +257,11 @@ PlanSys2 es el software de planificación con PDDL, sucesor de ROSPlan, que aspi
 ## Tutores
 Francisco Martín Rico
 
-<br><br>
+<br> 
+
+====== 
+
+<br>
 
 # Detección 3D de personas con Micro-ROS
 Keywords: Percepción, ROS2, Microcontroladores
@@ -233,7 +277,11 @@ Micro-ROS es un proyecto europeo cuyo objetivo es hacer funcionar ROS2 en microc
 ## Tutores
 Francisco Martín Rico
 
-<br><br>
+<br> 
+
+====== 
+
+<br>
 
 # Smart Boxes
 Keywords: ROS2, Percepción
@@ -248,7 +296,11 @@ Este proyecto propone explorar cómo crear un módulo plug&play que contenga sis
 ## Tutores
 Francisco Martín Rico
 
-<br><br>
+<br> 
+
+====== 
+
+<br>
 
 # Vehículos autónomos con AutoWare
 Keywords: ROS2, Vehículos autónomos
@@ -263,4 +315,8 @@ Autoware es el software Open Source para vehículos autónomos en ROS2. Contiene
 ## Tutores
 Francisco Martín Rico
 
-<br><br>
+<br> 
+
+====== 
+
+<br>
