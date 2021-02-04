@@ -1,15 +1,27 @@
 ---
-title: TFGs
+title: Desarrollo de test robóticos automáticos en Gazebo
 path: "/tfgs"
-tags: ["TFGs"]
-excerpt: Sample courses page.
+tags: ["ROS2", "testing", "simulador", "gazebo","webots", "robocup"]
+excerpt: TFG - Desarrollo de test robóticos automáticos en Gazebo.
 ---
 
-# ROS Course
+# Desarrollo de test robóticos automáticos en Gazebo
+## Descripción
+Se pretende desarrollar una plataforma para que se realicen test automáticos en el simulador. Por ejemplo, en un escenario similar a la robocup@AtHome el robot podría seguir a una persona e ir calculando la distancia a ella. Cada vez que modificamos / mejoramos el algoritmo de seguimiento este test se ejecuta en background y al finalizar nos da el resultado.
 
-Robot Operating System (ROS) Is the most used software around the world for robot programming. Since its beginnings, in 2006, its usage has been extended unstoppably. Nowadays, it is the standard in the robotic world.
+Esto ayudaría a la detección de bugs, mejoraría el desarrollo y la escalabilidad del código y haría que el software desarrollado fuera más robusto.
 
-[![Image](../posts/ros/ros.jpg)](/ros)
+En este trabajo se obtendrán conocimientos del funcionamiento de ROS2, se programará en diferentes lenguajes como python y c++ y, lo más importante, se desarrollará una metodología de trabajo basada en test de código y test de funcionamiento que dotarán al alumno de las capacidades de desarrollo de software demandadas por el ámbito científico e industrial.
+
+## Tecnologías que se usarán
+* ROS2
+* Python
+* C++
+* Gazebo/Webots
+* Turtlebot3/TIAGo
+
+## Tutores
+Jonatan Ginés Clavero y Manuel Fernandez Carmona.
 
 <br><br>
 
