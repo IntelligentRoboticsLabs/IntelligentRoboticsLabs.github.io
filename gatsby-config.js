@@ -28,18 +28,14 @@ module.exports = {
         path: '/publications'
       },
       {
-        name: 'TFGs',
-        path: '/tfgs'
-      },
-      {
-        name: 'Contact',
-        path: '/contact'
+        name: 'Student Projects',
+        path: '/student_projects'
       }
     ],
     footerMenu: [
       {
-        name: 'Contact',
-        path: '/contact'
+        name: 'Projects',
+        path: '/projects'
       },
     ],
     search: true,

@@ -1,6 +1,6 @@
 ---
-title: TFGs
-path: "/tfgs"
+title: Student Projects
+path: "/student_projects"
 tags: ["tfg"]
 excerpt: TFGs
 ---
