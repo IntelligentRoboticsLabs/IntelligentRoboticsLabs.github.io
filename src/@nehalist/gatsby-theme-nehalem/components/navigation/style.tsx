@@ -56,10 +56,10 @@ export const NavMenuItem = styled.li`
 `;
 
 export const NavLink = styled(Link)`
-  color: #353231;
+  color: white;
   opacity: .9;
   padding: 26px;
-  font-size: 20px;
+  font-size: 22px;
   transition: opacity .5s;
 
   &:hover {

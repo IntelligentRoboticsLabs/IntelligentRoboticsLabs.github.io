@@ -10,6 +10,14 @@ interface NavigationProps {
   dark?: boolean;
 }
 
+function mouseOverEvent(e) {
+  e.target.style.color = 'red';
+  console.log(e);
+}
+function mouseOutEvent(e) {
+  e.target.style.color = 'white';
+}
+
 const Navigation: FunctionComponent<NavigationProps> = ({title, menu, dark = false, showSearch = true}) => (
   <NavContainer dark={dark}>
     <Nav>
@@ -17,7 +25,7 @@ const Navigation: FunctionComponent<NavigationProps> = ({title, menu, dark = fal
         <NavMenu mobile={true}>
           {menu.map((item, index) => (
             <NavMenuItem key={index}>
-              <NavLink to={item.path} key={index}>{item.name}</NavLink>
+              <NavLink onMouseOver={mouseOverEvent} onMouseOut={mouseOutEvent} to={item.path} key={index}>{item.name}</NavLink>
             </NavMenuItem>
           ))}
         </NavMenu>
