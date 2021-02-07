@@ -30,6 +30,10 @@ module.exports = {
       {
         name: 'Student Projects',
         path: '/student_projects'
+      },
+      {
+        name: 'Teaching',
+        path: '/teaching'
       }
     ],
     footerMenu: [
