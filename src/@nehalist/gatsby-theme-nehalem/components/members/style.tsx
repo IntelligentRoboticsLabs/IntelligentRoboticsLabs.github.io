@@ -37,10 +37,10 @@ export const Grid = styled.article`
 `;
 
 export const GridImg = styled.article`
-  width: 300px;
-  max-width:300px;
-  height: 270px;
-  max-height: 270px;
+  width: 340px;
+  max-width:340px;
+  height: 350px;
+  max-height: 350px;
   display: inline-block;
   position: relative;
   margin: 10px;

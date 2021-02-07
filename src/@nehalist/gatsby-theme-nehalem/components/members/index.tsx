@@ -8,9 +8,13 @@ import JoseMiguel from "../../../../../content/assets/images/josemiguel.jpg"
 import Lorena from "../../../../../content/assets/images/lorena.jpg"
 import Fernando from "../../../../../content/assets/images/fernando.jpg"
 import Manuel from "../../../../../content/assets/images/manuel.jpg"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+  faEnvelope,
+} from '@fortawesome/free-solid-svg-icons'
 
 function mouseOverEvent(e) {
-  e.target.style.width = '55%';
+  e.target.style.width = '60%';
 }
 function mouseOutEvent(e) {
   e.target.style.width = '50%';
@@ -23,7 +27,9 @@ export const Members = () => (
     <Grid>
       <GridImg>
         <GridImgImage>
-          <img className="gridimg" onMouseOut={mouseOutEvent} onMouseOver={mouseOverEvent} width="50%" src={Paco} />
+          <a href="https://gsyc.urjc.es/~fmartin/" target="_blank">
+            <img className="gridimg" onMouseOut={mouseOutEvent} onMouseOver={mouseOverEvent} width="50%" src={Paco} />
+          </a>
         </GridImgImage>
         <div class="name">
           <p>
@@ -35,10 +41,18 @@ export const Members = () => (
             <strong>Associate Professor</strong>
           </p>
         </div>
+        <div class="email">
+          <div class="mail-icon">
+            <FontAwesomeIcon icon={faEnvelope} size="1x" />
+          </div>
+          <p>francisco.rico@urjc.es</p>
+        </div>
       </GridImg>
       <GridImg>
         <GridImgImage>
-          <img class="gridimg" onMouseOut={mouseOutEvent} onMouseOver={mouseOverEvent} src={JoseMiguel} width="50%" />
+          <a href="https://sites.google.com/view/jmguerrero" target="_blank">
+            <img class="gridimg" onMouseOut={mouseOutEvent} onMouseOver={mouseOverEvent} src={JoseMiguel} width="50%" />
+          </a>
         </GridImgImage>
         <div class="name">
           <p>
@@ -50,10 +64,18 @@ export const Members = () => (
             <strong>Assistant Professor</strong>
           </p>
         </div>
+        <div class="email">
+          <div class="mail-icon">
+            <FontAwesomeIcon icon={faEnvelope} size="1x" />
+          </div>
+          <p>josemiguel.guerrero@urjc.es</p>
+        </div>
       </GridImg>
       <GridImg>
         <GridImgImage>
-          <img class="gridimg" onMouseOut={mouseOutEvent} onMouseOver={mouseOverEvent} src={Jonatan} width="50%" />
+          <a href ="https://jginesclavero.github.io" target="_blank">
+            <img class="gridimg" onMouseOut={mouseOutEvent} onMouseOver={mouseOverEvent} src={Jonatan} width="50%" />
+          </a>
         </GridImgImage>
         <div class="name">
           <p>
@@ -64,6 +86,12 @@ export const Members = () => (
           <p>
             <strong>PhD Candidate</strong>
           </p>
+        </div>
+        <div class="email">
+          <div class="mail-icon">
+            <FontAwesomeIcon icon={faEnvelope} size="1x" />
+          </div>
+          <p>jonatan.gines@urjc.es</p>
         </div>
       </GridImg>
       <GridImg>
@@ -80,6 +108,12 @@ export const Members = () => (
             <strong>Intern</strong>
           </p>
         </div>
+        <div class="email">
+          <div class="mail-icon">
+            <FontAwesomeIcon icon={faEnvelope} size="1x" />
+          </div>
+          <p>f.gonzalezr.2016@alumnos.urjc.es</p>
+        </div>
       </GridImg>
       <GridImg>
         <GridImgImage>
@@ -95,10 +129,18 @@ export const Members = () => (
             <strong>Project Engineer</strong>
           </p>
         </div>
+        <div class="email">
+          <div class="mail-icon">
+            <FontAwesomeIcon icon={faEnvelope} size="1x" />
+          </div>
+          <p>lorena.bajo@urjc.es</p>
+        </div>
       </GridImg>
       <GridImg>
         <GridImgImage>
-          <img class="gridimg" onMouseOut={mouseOutEvent} onMouseOver={mouseOverEvent} src={Manuel} width="50%" />
+          <a href="https://www.fernandezcarmona.net" target="_blank">
+            <img class="gridimg" onMouseOut={mouseOutEvent} onMouseOver={mouseOverEvent} src={Manuel} width="50%" />            
+          </a>
         </GridImgImage>
         <div class="name">
           <p>
@@ -109,6 +151,12 @@ export const Members = () => (
           <p>
             <strong>Assistant Professor</strong>
           </p>
+        </div>
+        <div class="email">
+          <div class="mail-icon">
+            <FontAwesomeIcon icon={faEnvelope} size="1x" />
+          </div>
+          <p>manuel.fernandezc@urjc.es</p>
         </div>
       </GridImg>
     </Grid>
