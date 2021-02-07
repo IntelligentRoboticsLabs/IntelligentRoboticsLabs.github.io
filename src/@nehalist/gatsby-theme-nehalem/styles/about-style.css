@@ -37,28 +37,43 @@ main p {
   border-top-right-radius: 80%;
   border-bottom-right-radius: 80%;
   border-bottom-left-radius: 80%;
+  margin: 0px;
 }
 
 .definition p {
   font-size:20px;
   color:#d48282;
-  margin: 5px;
+  margin: 0px;
+  padding: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.email p {
+  font-weight: bold;
+  font-size: 16px;
+  color: grey;
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+}
+
+.email .mail-icon {
+  display: inline-block;
+  margin-right: 8px;
+  padding: 0px;
+}
+
+.name {
+  position: relative;
 }
 
 .name p {
   font-size:24px;
-  margin: 0px;
-}
-
-.description {
-  max-width: 100%;
-  margin-top: 50px;
-}
-
-.description p {
-  max-width: 100%;
-  text-align: center;
-  font-size:22px
+  margin-top: 10px;
+  margin-bottom: 5px;
+  position: relative;
+  display: inline;
 }
 
 .subcomment p {
