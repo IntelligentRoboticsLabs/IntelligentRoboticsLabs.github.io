@@ -1,5 +1,5 @@
 import React, {CSSProperties, FunctionComponent, ReactNode} from "react";
-import {Main, Header, MainDescription, Grid, GridImg, GridImgImage, Map} from "./style";
+import {Main, Grid, GridImg, GridImgImage, Map} from "./style";
 import "../../styles/about-style.css"
 import IntellRobotsLabTeam from "../../../../../content/assets/images/intellrobotslab_team.jpg"
 import Paco from "../../../../../content/assets/images/paco.jpg"
@@ -19,29 +19,11 @@ function mouseOutEvent(e) {
 export const Members = () => (
   <Main>
     <script src="./script.js" type="text/javascript" />
-    {/*<MainDescription>
-      <br />
-      <Header>TEAM</Header>
-      <img src={IntellRobotsLabTeam} width="80%" alt=""/>
-      <div class="description">
-        <p>
-          <br></br>
-          We are <strong>Intelligent Robotics Lab</strong>, a team of researchers in Robotics
-          from Rey Juan Carlos University and University of León experienced in
-          participating in several Robotics Competitions.
-        </p>
-      </div>
-      <div class="subcomment">
-        <p>
-          <strong><i>Know the people who make this possible.</i></strong>
-        </p>
-      </div>
-    </MainDescription>*/}
 
     <Grid>
       <GridImg>
         <GridImgImage>
-          <img class="gridimg" onMouseOut={mouseOutEvent} onMouseOver={mouseOverEvent} width="50%" src={Paco} />
+          <img className="gridimg" onMouseOut={mouseOutEvent} onMouseOver={mouseOverEvent} width="50%" src={Paco} />
         </GridImgImage>
         <div class="name">
           <p>
@@ -55,7 +37,9 @@ export const Members = () => (
         </div>
       </GridImg>
       <GridImg>
-        <img class="gridimg" onMouseOut={mouseOutEvent} onMouseOver={mouseOverEvent} src={JoseMiguel} width="50%" />
+        <GridImgImage>
+          <img class="gridimg" onMouseOut={mouseOutEvent} onMouseOver={mouseOverEvent} src={JoseMiguel} width="50%" />
+        </GridImgImage>
         <div class="name">
           <p>
             <strong>José Miguel Guerrero</strong>
@@ -68,7 +52,9 @@ export const Members = () => (
         </div>
       </GridImg>
       <GridImg>
-        <img class="gridimg" onMouseOut={mouseOutEvent} onMouseOver={mouseOverEvent} src={Jonatan} width="50%" />
+        <GridImgImage>
+          <img class="gridimg" onMouseOut={mouseOutEvent} onMouseOver={mouseOverEvent} src={Jonatan} width="50%" />
+        </GridImgImage>
         <div class="name">
           <p>
             <strong>Jonatan Ginés</strong>
@@ -81,7 +67,9 @@ export const Members = () => (
         </div>
       </GridImg>
       <GridImg>
-        <img class="gridimg" onMouseOut={mouseOutEvent} onMouseOver={mouseOverEvent} src={Fernando} width="50%" />
+        <GridImgImage>
+          <img class="gridimg" onMouseOut={mouseOutEvent} onMouseOver={mouseOverEvent} src={Fernando} width="50%" />
+        </GridImgImage>
         <div class="name">
           <p>
             <strong>Fernando González</strong>
@@ -94,7 +82,9 @@ export const Members = () => (
         </div>
       </GridImg>
       <GridImg>
-        <img class="gridimg" onMouseOut={mouseOutEvent} onMouseOver={mouseOverEvent} src={Lorena} width="50%" />
+        <GridImgImage>
+          <img class="gridimg" onMouseOut={mouseOutEvent} onMouseOver={mouseOverEvent} src={Lorena} width="50%" />
+        </GridImgImage>
         <div class="name">
           <p>
             <strong>Lorena Bajo</strong>
@@ -107,7 +97,9 @@ export const Members = () => (
         </div>
       </GridImg>
       <GridImg>
-        <img class="gridimg" onMouseOut={mouseOutEvent} onMouseOver={mouseOverEvent} src={Manuel} width="50%" />
+        <GridImgImage>
+          <img class="gridimg" onMouseOut={mouseOutEvent} onMouseOver={mouseOverEvent} src={Manuel} width="50%" />
+        </GridImgImage>
         <div class="name">
           <p>
             <strong>Manuel Fernández</strong>

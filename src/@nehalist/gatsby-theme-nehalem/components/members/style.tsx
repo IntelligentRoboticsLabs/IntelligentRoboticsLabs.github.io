@@ -37,13 +37,16 @@ export const Grid = styled.article`
 `;
 
 export const GridImg = styled.article`
-  width: 30%;
-  margin: 10px;
+  width: 300px;
+  max-width:300px;
+  height: 270px;
+  max-height: 270px;
   display: inline-block;
   position: relative;
-  margin: 0px;
-  margin-bottom: 5%;
+  margin: 10px;
+  margin-bottom: 0%;
   padding: 0px;
+  overflow: hidden;
 `;
 
 export const GridImgImage = styled.article`
@@ -51,6 +54,7 @@ export const GridImgImage = styled.article`
   border-top-right-radius: 80%;
   border-bottom-right-radius: 80%;
   border-bottom-left-radius: 80%;
+  padding: 5%;
 `;
 
 export const Map = styled.article`
