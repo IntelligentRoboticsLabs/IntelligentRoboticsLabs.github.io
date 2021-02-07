@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://IntelligentRoboticsLabs.github.io/pepper_assistant</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://IntelligentRoboticsLabs.github.io/robobo</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://IntelligentRoboticsLabs.github.io/navigation</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://IntelligentRoboticsLabs.github.io/perception</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://IntelligentRoboticsLabs.github.io/about_old</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://IntelligentRoboticsLabs.github.io/page</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://IntelligentRoboticsLabs.github.io/publications</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://IntelligentRoboticsLabs.github.io/student_projects</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://IntelligentRoboticsLabs.github.io/teaching</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://IntelligentRoboticsLabs.github.io/tag/ros</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://IntelligentRoboticsLabs.github.io/tag/ros2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://IntelligentRoboticsLabs.github.io/tag/navigation</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://IntelligentRoboticsLabs.github.io/tag/perception</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://IntelligentRoboticsLabs.github.io/tag/reception-assistant-robot</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://IntelligentRoboticsLabs.github.io/tag/robobo</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://IntelligentRoboticsLabs.github.io/tag/deep-learning</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://IntelligentRoboticsLabs.github.io/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://IntelligentRoboticsLabs.github.io/archive/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://IntelligentRoboticsLabs.github.io/contact/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://IntelligentRoboticsLabs.github.io/members/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://IntelligentRoboticsLabs.github.io/projects/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://IntelligentRoboticsLabs.github.io/tags/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+</urlset>
