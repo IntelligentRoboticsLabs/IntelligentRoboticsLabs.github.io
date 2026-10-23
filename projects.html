@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects – Intelligent Robotics Lab</title>
+  <meta name="description" content="Research projects of the Intelligent Robotics Lab (URJC): Horizon Europe, H2020 and national projects such as CoreSense, AURORAS, DMARCE, MOCAP4ROS2 and ACTROS, and the open-source software we maintain: PlanSys2, EasyNav, NavMap." />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Intelligent Robotics Lab – Universidad Rey Juan Carlos" />
+  <link rel="canonical" href="https://intelligentroboticslabs.github.io/projects.html" />
+
+  <!-- Open Graph / social sharing -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Intelligent Robotics Lab" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:title" content="Projects – Intelligent Robotics Lab" />
+  <meta property="og:description" content="Research projects of the Intelligent Robotics Lab (URJC): Horizon Europe, H2020 and national projects such as CoreSense, AURORAS, DMARCE, MOCAP4ROS2 and ACTROS, and the open-source software we maintain: PlanSys2, EasyNav, NavMap." />
+  <meta property="og:url" content="https://intelligentroboticslabs.github.io/projects.html" />
+  <meta property="og:image" content="https://intelligentroboticslabs.github.io/img/og_group.jpg" />
+  <meta property="og:image:alt" content="Intelligent Robotics Lab" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Projects – Intelligent Robotics Lab" />
+  <meta name="twitter:description" content="Research projects of the Intelligent Robotics Lab (URJC): Horizon Europe, H2020 and national projects such as CoreSense, AURORAS, DMARCE, MOCAP4ROS2 and ACTROS, and the open-source software we maintain: PlanSys2, EasyNav, NavMap." />
+  <meta name="twitter:image" content="https://intelligentroboticslabs.github.io/img/og_group.jpg" />
+
+  <!-- Structured data (schema.org) -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ResearchOrganization",
+      "@id": "https://intelligentroboticslabs.github.io/#organization",
+      "name": "Intelligent Robotics Lab",
+      "alternateName": [
+        "IRL",
+        "Intelligent Robotics Lab URJC"
+      ],
+      "url": "https://intelligentroboticslabs.github.io/",
+      "logo": "https://intelligentroboticslabs.github.io/img/logo.png",
+      "image": "https://intelligentroboticslabs.github.io/img/hero.jpg",
+      "description": "Research group at Universidad Rey Juan Carlos working on human-robot interaction, perception, navigation, task planning and ROS 2.",
+      "parentOrganization": {
+        "@type": "CollegeOrUniversity",
+        "name": "Universidad Rey Juan Carlos",
+        "url": "https://www.urjc.es/"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Escuela de Ingeniería de Fuenlabrada, Camino del Molino 5",
+        "addressLocality": "Fuenlabrada",
+        "addressRegion": "Madrid",
+        "postalCode": "28942",
+        "addressCountry": "ES"
+      },
+      "founder": {
+        "@id": "https://intelligentroboticslabs.github.io/team.html#francisco-martin-rico"
+      },
+      "sameAs": [
+        "https://github.com/IntelligentRoboticsLabs"
+      ],
+      "knowsAbout": [
+        "Robotics",
+        "ROS 2",
+        "Human-Robot Interaction",
+        "Robot Perception",
+        "Autonomous Navigation",
+        "Task Planning",
+        "Cognitive Architectures",
+        "Behavior Trees",
+        "SLAM",
+        "Artificial Intelligence"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://intelligentroboticslabs.github.io/#website",
+      "url": "https://intelligentroboticslabs.github.io/",
+      "name": "Intelligent Robotics Lab",
+      "publisher": {
+        "@id": "https://intelligentroboticslabs.github.io/#organization"
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://intelligentroboticslabs.github.io/projects.html#webpage",
+      "url": "https://intelligentroboticslabs.github.io/projects.html",
+      "name": "Projects – Intelligent Robotics Lab",
+      "description": "Research projects of the Intelligent Robotics Lab (URJC): Horizon Europe, H2020 and national projects such as CoreSense, AURORAS, DMARCE, MOCAP4ROS2 and ACTROS, and the open-source software we maintain: PlanSys2, EasyNav, NavMap.",
+      "isPartOf": {
+        "@id": "https://intelligentroboticslabs.github.io/#website"
+      },
+      "about": {
+        "@id": "https://intelligentroboticslabs.github.io/#organization"
+      },
+      "inLanguage": "en",
+      "primaryImageOfPage": "https://intelligentroboticslabs.github.io/img/og_group.jpg"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://intelligentroboticslabs.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Projects",
+          "item": "https://intelligentroboticslabs.github.io/projects.html"
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Research projects of the Intelligent Robotics Lab",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "ResearchProject",
+            "name": "Advanced Task Planning and Navigation for Robotics in the Primary Sector (PLANNAV)",
+            "alternateName": "AURORAS – PLANNAV",
+            "identifier": "PID2024-161761OB-C22",
+            "description": "URJC subproject of AURORAS. Outdoor navigation on rugged terrain and symbolic task planning for fleets of robots working in agriculture and livestock farming.",
+            "funder": {
+              "@type": "Organization",
+              "name": "Agencia Estatal de Investigación (MICIU/AEI, ERDF/EU)"
+            },
+            "url": "https://intelligentroboticslabs.github.io/projects/auroras/"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "ResearchProject",
+            "name": "Robótica inteligente para ciudades sostenibles (ROB)",
+            "alternateName": "ROB",
+            "description": "Regional research programme on intelligent robotics for sustainable cities in the Madrid region.",
+            "funder": {
+              "@type": "Organization",
+              "name": "Comunidad de Madrid"
+            },
+            "url": "https://intelligentroboticslabs.github.io/projects.html#rob"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "ResearchProject",
+            "name": "Integración y validación con hardware enlazado del guiado, navegación y control de operaciones orbitales de proximidad empleando inteligencia artificial",
+            "description": "Hardware-in-the-loop integration and validation of AI-based guidance, navigation and control for orbital proximity operations.",
+            "funder": {
+              "@type": "Organization",
+              "name": "Agencia Estatal de Investigación"
+            },
+            "url": "https://intelligentroboticslabs.github.io/projects.html#integracion-y-validacion-con-hardware-enlazado-del-guiado-na"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "ResearchProject",
+            "name": "Cybersecure And Safe Cognitive Architectures for Robots (CASCAR)",
+            "alternateName": "DMARCE – CASCAR",
+            "identifier": "PID2021-126592OB-C22",
+            "description": "URJC subproject of DMARCE. Detection and mitigation of cybersecurity threats in robot software and cognitive architectures, keeping people and the environment safe.",
+            "funder": {
+              "@type": "Organization",
+              "name": "Agencia Estatal de Investigación (MICIU/AEI, ERDF/EU)"
+            },
+            "url": "https://intelligentroboticslabs.github.io/projects/dmarce/"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "ResearchProject",
+            "name": "CoreSense: A Hybrid Cognitive Architecture for Deep Understanding",
+            "alternateName": "CoreSense",
+            "identifier": "GA 101070254",
+            "description": "A theory of understanding and awareness for robots and a hybrid cognitive architecture on ROS 2, validated in manufacturing, drone inspection and social robotics.",
+            "funder": {
+              "@type": "Organization",
+              "name": "European Commission – Horizon Europe"
+            },
+            "url": "https://intelligentroboticslabs.github.io/projects/coresense/"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@type": "ResearchProject",
+            "name": "Generación de trayectorias óptimas en entornos exteriores no planos para robots terrestres",
+            "description": "Optimal trajectory generation for ground robots in non-planar outdoor environments.",
+            "funder": {
+              "@type": "Organization",
+              "name": "Universidad Rey Juan Carlos"
+            },
+            "url": "https://intelligentroboticslabs.github.io/projects.html#generacion-de-trayectorias-optimas-en-entornos-exteriores-no"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "item": {
+            "@type": "ResearchProject",
+            "name": "AIPLAN4EU – UPF4ROS",
+            "alternateName": "UPF4ROS",
+            "description": "Integration of the Unified Planning Framework into ROS 2, enabling planner-independent task planning for robots.",
+            "funder": {
+              "@type": "Organization",
+              "name": "AIPlan4EU Focused Technical Project (European Commission – Horizon Europe)"
+            },
+            "url": "https://intelligentroboticslabs.github.io/projects.html#upf4ros"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "item": {
+            "@type": "ResearchProject",
+            "name": "RoboCity 2030 – Madrid Robotics Digital Innovation Hub",
+            "alternateName": "RoboCity2030-DIH-CM",
+            "description": "Digital Innovation Hub connecting the robotics research groups of the Madrid region with companies and society.",
+            "funder": {
+              "@type": "Organization",
+              "name": "Comunidad de Madrid"
+            },
+            "url": "https://intelligentroboticslabs.github.io/projects.html#robocity2030-dih-cm"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "item": {
+            "@type": "ResearchProject",
+            "name": "MOCAP4ROS2",
+            "alternateName": "MOCAP4ROS2",
+            "description": "Standard ROS 2 interfaces, drivers and tools for motion capture systems (Vicon, OptiTrack, Qualisys).",
+            "funder": {
+              "@type": "Organization",
+              "name": "ROSIN Focused Technical Project (European Commission – H2020)"
+            },
+            "url": "https://intelligentroboticslabs.github.io/projects/mocap4ros2/"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "item": {
+            "@type": "ResearchProject",
+            "name": "Planning4Papyrus",
+            "alternateName": "Planning4Papyrus",
+            "description": "Bringing symbolic task planning to the model-driven RobMoSys toolchain (Papyrus for Robotics).",
+            "funder": {
+              "@type": "Organization",
+              "name": "RobMoSys Experts Intake Project (European Commission – H2020)"
+            },
+            "url": "https://intelligentroboticslabs.github.io/projects.html#planning4papyrus"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "item": {
+            "@type": "ResearchProject",
+            "name": "ACTROS: Advanced Center for Training ROS",
+            "alternateName": "ACTROS",
+            "description": "A reference training centre at URJC for ROS and ROS 2 courses for students and professionals, using the lab robots.",
+            "funder": {
+              "@type": "Organization",
+              "name": "ROSIN Educational Project (European Commission – H2020)"
+            },
+            "url": "https://intelligentroboticslabs.github.io/projects/actros/"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "item": {
+            "@type": "ResearchProject",
+            "name": "MROS: Metacontrol for ROS 2 Systems",
+            "alternateName": "MROS",
+            "description": "Metacontrol for ROS 2: robots that reason about their own architecture and reconfigure themselves at runtime.",
+            "funder": {
+              "@type": "Organization",
+              "name": "RobMoSys Integrated Technical Project (European Commission – H2020)"
+            },
+            "url": "https://intelligentroboticslabs.github.io/projects.html#mros"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 13,
+          "item": {
+            "@type": "ResearchProject",
+            "name": "Detección y caracterización automática de problemas de ciberseguridad en plataformas robóticas",
+            "identifier": "RTI2018-100683-B-I00",
+            "description": "Automatic detection and characterisation of cybersecurity problems in robotic platforms.",
+            "funder": {
+              "@type": "Organization",
+              "name": "Plan Nacional (Spanish Government)"
+            },
+            "url": "https://intelligentroboticslabs.github.io/projects.html#rti2018-100683-b-i00"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 14,
+          "item": {
+            "@type": "ResearchProject",
+            "name": "ARViz: Augmented Reality Visualizer for ROS/ROS 2",
+            "alternateName": "ARViz",
+            "description": "Augmented-reality visualisation of ROS and ROS 2 data on head-mounted displays.",
+            "funder": {
+              "@type": "Organization",
+              "name": "ROSIN Focused Technical Project (European Commission – H2020)"
+            },
+            "url": "https://intelligentroboticslabs.github.io/projects.html#arviz"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 15,
+          "item": {
+            "@type": "ResearchProject",
+            "name": "Retorno al hogar: Sistema de mejora de la autonomía a personas con daño cerebral adquirido y dependientes en su integración en la sociedad",
+            "alternateName": "Retorno al hogar",
+            "identifier": "TIN2016-76515-R",
+            "description": "Assistive robotics to improve the autonomy of people with acquired brain injury and dependent people at home.",
+            "funder": {
+              "@type": "Organization",
+              "name": "MINECO"
+            },
+            "url": "https://intelligentroboticslabs.github.io/projects.html#retorno-al-hogar"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 16,
+          "item": {
+            "@type": "ResearchProject",
+            "name": "SIRMAVED: Development of a comprehensive monitoring and interactive robotic system for people with acquired brain damage and dependent people",
+            "alternateName": "SIRMAVED",
+            "identifier": "DPI2013-40534-R",
+            "description": "Monitoring and interactive robotic system to support people with acquired brain damage and dependent people.",
+            "funder": {
+              "@type": "Organization",
+              "name": "MINECO"
+            },
+            "url": "https://intelligentroboticslabs.github.io/projects.html#sirmaved"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 17,
+          "item": {
+            "@type": "ResearchProject",
+            "name": "Roboterapia en Demencia",
+            "alternateName": "Roboterapia",
+            "identifier": "PI10/02567",
+            "description": "Social robots as a therapeutic tool for people with dementia.",
+            "funder": {
+              "@type": "Organization",
+              "name": "Universidad Rey Juan Carlos"
+            },
+            "url": "https://intelligentroboticslabs.github.io/projects.html#roboterapia"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 18,
+          "item": {
+            "@type": "ResearchProject",
+            "name": "Robots de servicios para la calidad de vida de los ciudadanos en áreas metropolitanas (Robocity2030-II)",
+            "alternateName": "RoboCity2030-II",
+            "identifier": "2010/00109/001",
+            "description": "Service robots to improve the quality of life of citizens in metropolitan areas.",
+            "funder": {
+              "@type": "Organization",
+              "name": "Comunidad de Madrid"
+            },
+            "url": "https://intelligentroboticslabs.github.io/projects.html#robocity2030-ii"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 19,
+          "item": {
+            "@type": "ResearchProject",
+            "name": "Generación de comportamientos cooperantes en grupos de robots móviles",
+            "identifier": "DPI2007-66556-C03-01",
+            "description": "Generation of cooperative behaviours in groups of mobile robots.",
+            "funder": {
+              "@type": "Organization",
+              "name": "CICyT"
+            },
+            "url": "https://intelligentroboticslabs.github.io/projects.html#dpi2007-66556-c03-01"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 20,
+          "item": {
+            "@type": "ResearchProject",
+            "name": "MAVROM: Mecanismos de atención visual en robots móviles",
+            "alternateName": "MAVROM",
+            "identifier": "URJC-CM-2007-CET-1694",
+            "description": "Visual attention mechanisms for mobile robots.",
+            "funder": {
+              "@type": "Organization",
+              "name": "Universidad Rey Juan Carlos"
+            },
+            "url": "https://intelligentroboticslabs.github.io/projects.html#mavrom"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 21,
+          "item": {
+            "@type": "ResearchProject",
+            "name": "Robocampeones 2007",
+            "alternateName": "Robocampeones 2007",
+            "identifier": "CCT005-06-00275",
+            "description": "Robotics competition to bring robotics to secondary-school students.",
+            "funder": {
+              "@type": "Organization",
+              "name": "Comunidad de Madrid"
+            },
+            "url": "https://intelligentroboticslabs.github.io/projects.html#robocampeones-2007"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 22,
+          "item": {
+            "@type": "ResearchProject",
+            "name": "RoboCity 2030",
+            "alternateName": "RoboCity2030",
+            "identifier": "S-0505/DPI/0176",
+            "description": "First RoboCity2030 programme on service robots for the citizens of Madrid.",
+            "funder": {
+              "@type": "Organization",
+              "name": "Comunidad de Madrid"
+            },
+            "url": "https://intelligentroboticslabs.github.io/projects.html#robocity2030"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 23,
+          "item": {
+            "@type": "ResearchProject",
+            "name": "ACRACE: Arquitectura para el control de robots autónomos cooperantes basada en esquemas",
+            "alternateName": "ACRACE",
+            "identifier": "DPI2004-07993-C03-01",
+            "description": "A schema-based architecture to control cooperating autonomous robots.",
+            "funder": {
+              "@type": "Organization",
+              "name": "CICyT"
+            },
+            "url": "https://intelligentroboticslabs.github.io/projects.html#acrace"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Open-source software maintained by the Intelligent Robotics Lab",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "PlanSys2",
+            "description": "PDDL-based symbolic task planning for ROS 2. The reference planning framework in the ROS 2 ecosystem.",
+            "codeRepository": "https://github.com/PlanSys2/ros2_planning_system",
+            "programmingLanguage": "C++",
+            "maintainer": {
+              "@id": "https://intelligentroboticslabs.github.io/#organization"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "EasyNav",
+            "description": "Open-source navigation system for ROS 2: representation-agnostic (costmaps, gridmaps, Octomap, point clouds), real-time, modular and simple to deploy.",
+            "codeRepository": "https://github.com/EasyNavigation/EasyNavigation",
+            "programmingLanguage": "C++",
+            "maintainer": {
+              "@id": "https://intelligentroboticslabs.github.io/#organization"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "NavMap",
+            "description": "C++ and ROS 2 library that represents navigable surfaces as triangular meshes, with layers, fast queries and multi-floor support.",
+            "codeRepository": "https://github.com/EasyNavigation/NavMap",
+            "programmingLanguage": "C++",
+            "maintainer": {
+              "@id": "https://intelligentroboticslabs.github.io/#organization"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "MOCAP4ROS2",
+            "description": "Standard interfaces, drivers and tools to use motion capture systems (Vicon, OptiTrack, Qualisys) in ROS 2.",
+            "codeRepository": "https://github.com/MOCAP4ROS2-Project",
+            "programmingLanguage": "C++",
+            "maintainer": {
+              "@id": "https://intelligentroboticslabs.github.io/#organization"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "YAETS",
+            "description": "Asynchronous C++ function-execution tracing, with Python tools to analyse the results as Gantt charts and histograms.",
+            "codeRepository": "https://github.com/fmrico/yaets",
+            "programmingLanguage": "C++",
+            "maintainer": {
+              "@id": "https://intelligentroboticslabs.github.io/#organization"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "cascade_lifecycle",
+            "description": "Activation trees of ROS 2 lifecycle (managed) nodes: a node's state changes propagate to the nodes that depend on it.",
+            "codeRepository": "https://github.com/fmrico/cascade_lifecycle",
+            "programmingLanguage": "C++",
+            "maintainer": {
+              "@id": "https://intelligentroboticslabs.github.io/#organization"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
+  </script>
+
+  <meta name="theme-color" content="#D30015" />
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="index.html"><img src="img/logo.png" alt="Intelligent Robotics Lab logo" width="190" height="70" /></a>
+    <div class="header-right">
+      <a class="btn" href="https://github.com/IntelligentRoboticsLabs" target="_blank" rel="noopener">Check our GitHub!</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation"><span></span></label>
+      <nav class="main-nav" aria-label="Main">
+        <ul>
+          <li><a href="team.html">Our Team</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="projects.html" class="active">Projects</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<section class="page-header" style="background-image: url('img/header_publications.jpg'); background-position: center;">
+  <h1 class="page-title">Projects</h1>
+</section>
+<div class="breadcrumb"><a href="index.html">Home</a><span class="sep">/</span> Projects</div>
+
+<main class="section">
+  <div class="container">
+    <!-- The tabs are built automatically from the <section class="tab-panel"> blocks below. -->
+    <nav class="tab-nav" id="tab-nav" aria-label="Project groups"></nav>
+
+    <div id="tab-panels">
+    <!-- ==========================================================
+         HOW TO ADD A FUNDED PROJECT
+         Copy this block into "Ongoing" (newest first). Move it to
+         "Completed" when it ends.
+
+      <article class="project" id="my-project">
+        <p class="project-ids"><span class="project-tag">ACRONYM</span><span class="project-grant">GRANT-ID</span></p>
+        <h3 class="project-title">Full title of the project</h3>
+        <p class="project-meta">Funding agency · 2026 – 2029 · PI: Name Surname</p>
+        <p class="project-desc">One or two sentences about the project.</p>
+        <ul class="paper-links">
+          <li><a class="pl pl-page" aria-disabled="true" title="Coming soon">Project page</a></li>
+          <li><a class="pl pl-web" href="https://..." target="_blank" rel="noopener">Website</a></li>
+          <li><a class="pl pl-gh" href="https://github.com/..." target="_blank" rel="noopener">GitHub</a></li>
+        </ul>
+      </article>
+
+         PROJECT PAGE: copy projects/coresense/ to projects/my-project/,
+         edit it, and change the first link to:
+          <li><a class="pl pl-page" href="projects/my-project/">Project page</a></li>
+         ========================================================== -->
+
+      <section class="tab-panel" id="ongoing">
+        <h2>Ongoing</h2>
+
+        <article class="project" id="auroras">
+          <p class="project-ids"><span class="project-tag">AURORAS – PLANNAV</span><span class="project-grant">PID2024-161761OB-C22</span></p>
+          <h3 class="project-title">Advanced Task Planning and Navigation for Robotics in the Primary Sector (PLANNAV)</h3>
+          <p class="project-meta">Agencia Estatal de Investigación (MICIU/AEI, ERDF/EU) · 2025 – 2028 · PI: Francisco Martín Rico, José Miguel Guerrero Hernández</p>
+          <p class="project-desc">URJC subproject of AURORAS. Outdoor navigation on rugged terrain and symbolic task planning for fleets of robots working in agriculture and livestock farming.</p>
+          <ul class="paper-links">
+            <li><a class="pl pl-page" href="projects/auroras/">Project page</a></li>
+            <li><a class="pl pl-web" href="https://project-auroras.github.io/auroras/" target="_blank" rel="noopener">Website</a></li>
+            <li><a class="pl pl-gh" href="https://github.com/project-auroras" target="_blank" rel="noopener">GitHub</a></li>
+          </ul>
+        </article>
+
+        <article class="project" id="rob">
+          <p class="project-ids"><span class="project-tag">ROB</span></p>
+          <h3 class="project-title">Robótica inteligente para ciudades sostenibles (ROB)</h3>
+          <p class="project-meta">Comunidad de Madrid · 2025 – 2028 · PI: José María Cañas Plaza</p>
+          <p class="project-desc">Regional research programme on intelligent robotics for sustainable cities in the Madrid region.</p>
+          <ul class="paper-links">
+            <li><a class="pl pl-page" aria-disabled="true" title="Coming soon">Project page</a></li>
+          </ul>
+        </article>
+
+        <article class="project" id="integracion-y-validacion-con-hardware-enlazado-del-guiado-na">
+          <p class="project-ids"></p>
+          <h3 class="project-title">Integración y validación con hardware enlazado del guiado, navegación y control de operaciones orbitales de proximidad empleando inteligencia artificial</h3>
+          <p class="project-meta">Agencia Estatal de Investigación · Dec 2022 – 2026 · PI: Xin Chen, Hodei Urrutxua Cereijo</p>
+          <p class="project-desc">Hardware-in-the-loop integration and validation of AI-based guidance, navigation and control for orbital proximity operations.</p>
+          <ul class="paper-links">
+            <li><a class="pl pl-page" aria-disabled="true" title="Coming soon">Project page</a></li>
+          </ul>
+        </article>
+
+        <article class="project" id="dmarce">
+          <p class="project-ids"><span class="project-tag">DMARCE – CASCAR</span><span class="project-grant">PID2021-126592OB-C22</span></p>
+          <h3 class="project-title">Cybersecure And Safe Cognitive Architectures for Robots (CASCAR)</h3>
+          <p class="project-meta">Agencia Estatal de Investigación (MICIU/AEI, ERDF/EU) · Sep 2022 – 2026 · PI: Francisco Martín Rico, Enrique Soriano Salvador</p>
+          <p class="project-desc">URJC subproject of DMARCE. Detection and mitigation of cybersecurity threats in robot software and cognitive architectures, keeping people and the environment safe.</p>
+          <ul class="paper-links">
+            <li><a class="pl pl-page" href="projects/dmarce/">Project page</a></li>
+            <li><a class="pl pl-web" href="https://dmarce-project.github.io/" target="_blank" rel="noopener">Website</a></li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="tab-panel" id="completed">
+        <h2>Completed</h2>
+
+        <article class="project" id="coresense">
+          <p class="project-ids"><span class="project-tag">CoreSense</span><span class="project-grant">GA 101070254</span></p>
+          <h3 class="project-title">CoreSense: A Hybrid Cognitive Architecture for Deep Understanding</h3>
+          <p class="project-meta">European Commission – Horizon Europe · Oct 2022 – Sep 2026 · PI: Francisco Martín Rico, José Miguel Guerrero Hernández</p>
+          <p class="project-desc">A theory of understanding and awareness for robots and a hybrid cognitive architecture on ROS 2, validated in manufacturing, drone inspection and social robotics.</p>
+          <ul class="paper-links">
+            <li><a class="pl pl-page" href="projects/coresense/">Project page</a></li>
+            <li><a class="pl pl-web" href="https://coresense.eu/" target="_blank" rel="noopener">Website</a></li>
+            <li><a class="pl pl-gh" href="https://github.com/CoreSenseEU" target="_blank" rel="noopener">GitHub</a></li>
+          </ul>
+        </article>
+
+        <article class="project" id="generacion-de-trayectorias-optimas-en-entornos-exteriores-no">
+          <p class="project-ids"></p>
+          <h3 class="project-title">Generación de trayectorias óptimas en entornos exteriores no planos para robots terrestres</h3>
+          <p class="project-meta">Universidad Rey Juan Carlos · 2025 · PI: Miguel Ángel de Miguel Paraíso, Juan Sebastián Cely Gutiérrez</p>
+          <p class="project-desc">Optimal trajectory generation for ground robots in non-planar outdoor environments.</p>
+          <ul class="paper-links">
+            <li><a class="pl pl-page" aria-disabled="true" title="Coming soon">Project page</a></li>
+          </ul>
+        </article>
+
+        <article class="project" id="upf4ros">
+          <p class="project-ids"><span class="project-tag">UPF4ROS</span></p>
+          <h3 class="project-title">AIPLAN4EU – UPF4ROS</h3>
+          <p class="project-meta">AIPlan4EU Focused Technical Project (European Commission – Horizon Europe) · Sep 2022 – Dec 2023 · PI: Francisco Martín Rico</p>
+          <p class="project-desc">Integration of the Unified Planning Framework into ROS 2, enabling planner-independent task planning for robots.</p>
+          <ul class="paper-links">
+            <li><a class="pl pl-page" aria-disabled="true" title="Coming soon">Project page</a></li>
+          </ul>
+        </article>
+
+        <article class="project" id="robocity2030-dih-cm">
+          <p class="project-ids"><span class="project-tag">RoboCity2030-DIH-CM</span></p>
+          <h3 class="project-title">RoboCity 2030 – Madrid Robotics Digital Innovation Hub</h3>
+          <p class="project-meta">Comunidad de Madrid · 2019 – 2023 · PI: José María Cañas Plaza</p>
+          <p class="project-desc">Digital Innovation Hub connecting the robotics research groups of the Madrid region with companies and society.</p>
+          <ul class="paper-links">
+            <li><a class="pl pl-page" aria-disabled="true" title="Coming soon">Project page</a></li>
+          </ul>
+        </article>
+
+        <article class="project" id="mocap4ros2">
+          <p class="project-ids"><span class="project-tag">MOCAP4ROS2</span></p>
+          <h3 class="project-title">MOCAP4ROS2</h3>
+          <p class="project-meta">ROSIN Focused Technical Project (European Commission – H2020) · Dec 2019 – Dec 2020 · PI: Francisco Martín Rico</p>
+          <p class="project-desc">Standard ROS 2 interfaces, drivers and tools for motion capture systems (Vicon, OptiTrack, Qualisys).</p>
+          <ul class="paper-links">
+            <li><a class="pl pl-page" href="projects/mocap4ros2/">Project page</a></li>
+            <li><a class="pl pl-web" href="https://mocap4ros2-project.github.io/" target="_blank" rel="noopener">Website</a></li>
+            <li><a class="pl pl-gh" href="https://github.com/MOCAP4ROS2-Project" target="_blank" rel="noopener">GitHub</a></li>
+          </ul>
+        </article>
+
+        <article class="project" id="planning4papyrus">
+          <p class="project-ids"><span class="project-tag">Planning4Papyrus</span></p>
+          <h3 class="project-title">Planning4Papyrus</h3>
+          <p class="project-meta">RobMoSys Experts Intake Project (European Commission – H2020) · Apr 2020 – Nov 2020 · PI: Francisco Martín Rico</p>
+          <p class="project-desc">Bringing symbolic task planning to the model-driven RobMoSys toolchain (Papyrus for Robotics).</p>
+          <ul class="paper-links">
+            <li><a class="pl pl-page" aria-disabled="true" title="Coming soon">Project page</a></li>
+          </ul>
+        </article>
+
+        <article class="project" id="actros">
+          <p class="project-ids"><span class="project-tag">ACTROS</span></p>
+          <h3 class="project-title">ACTROS: Advanced Center for Training ROS</h3>
+          <p class="project-meta">ROSIN Educational Project (European Commission – H2020) · Jan 2020 – Dec 2020 · PI: Francisco Martín Rico</p>
+          <p class="project-desc">A reference training centre at URJC for ROS and ROS 2 courses for students and professionals, using the lab robots.</p>
+          <ul class="paper-links">
+            <li><a class="pl pl-page" href="projects/actros/">Project page</a></li>
+            <li><a class="pl pl-web" href="https://actros-educational-project.github.io/" target="_blank" rel="noopener">Website</a></li>
+            <li><a class="pl pl-gh" href="https://github.com/ACTROS-Educational-Project" target="_blank" rel="noopener">GitHub</a></li>
+          </ul>
+        </article>
+
+        <article class="project" id="mros">
+          <p class="project-ids"><span class="project-tag">MROS</span></p>
+          <h3 class="project-title">MROS: Metacontrol for ROS 2 Systems</h3>
+          <p class="project-meta">RobMoSys Integrated Technical Project (European Commission – H2020) · Oct 2019 – Sep 2020 · PI: Francisco Martín Rico</p>
+          <p class="project-desc">Metacontrol for ROS 2: robots that reason about their own architecture and reconfigure themselves at runtime.</p>
+          <ul class="paper-links">
+            <li><a class="pl pl-page" aria-disabled="true" title="Coming soon">Project page</a></li>
+          </ul>
+        </article>
+
+        <article class="project" id="rti2018-100683-b-i00">
+          <p class="project-ids"><span class="project-grant">RTI2018-100683-B-I00</span></p>
+          <h3 class="project-title">Detección y caracterización automática de problemas de ciberseguridad en plataformas robóticas</h3>
+          <p class="project-meta">Plan Nacional (Spanish Government) · 2020 – 2021 · PI: Camino Fernández Llamas</p>
+          <p class="project-desc">Automatic detection and characterisation of cybersecurity problems in robotic platforms.</p>
+          <ul class="paper-links">
+            <li><a class="pl pl-page" aria-disabled="true" title="Coming soon">Project page</a></li>
+          </ul>
+        </article>
+
+        <article class="project" id="arviz">
+          <p class="project-ids"><span class="project-tag">ARViz</span></p>
+          <h3 class="project-title">ARViz: Augmented Reality Visualizer for ROS/ROS 2</h3>
+          <p class="project-meta">ROSIN Focused Technical Project (European Commission – H2020) · Jul 2018 – Dec 2019 · PI: Francisco Martín Rico</p>
+          <p class="project-desc">Augmented-reality visualisation of ROS and ROS 2 data on head-mounted displays.</p>
+          <ul class="paper-links">
+            <li><a class="pl pl-page" aria-disabled="true" title="Coming soon">Project page</a></li>
+          </ul>
+        </article>
+
+        <article class="project" id="retorno-al-hogar">
+          <p class="project-ids"><span class="project-tag">Retorno al hogar</span><span class="project-grant">TIN2016-76515-R</span></p>
+          <h3 class="project-title">Retorno al hogar: Sistema de mejora de la autonomía a personas con daño cerebral adquirido y dependientes en su integración en la sociedad</h3>
+          <p class="project-meta">MINECO · 2017 – 2019 · PI: Miguel Cazorla Quevedo</p>
+          <p class="project-desc">Assistive robotics to improve the autonomy of people with acquired brain injury and dependent people at home.</p>
+          <ul class="paper-links">
+            <li><a class="pl pl-page" aria-disabled="true" title="Coming soon">Project page</a></li>
+          </ul>
+        </article>
+
+        <article class="project" id="sirmaved">
+          <p class="project-ids"><span class="project-tag">SIRMAVED</span><span class="project-grant">DPI2013-40534-R</span></p>
+          <h3 class="project-title">SIRMAVED: Development of a comprehensive monitoring and interactive robotic system for people with acquired brain damage and dependent people</h3>
+          <p class="project-meta">MINECO · 2013 – 2016 · PI: Miguel Cazorla</p>
+          <p class="project-desc">Monitoring and interactive robotic system to support people with acquired brain damage and dependent people.</p>
+          <ul class="paper-links">
+            <li><a class="pl pl-page" aria-disabled="true" title="Coming soon">Project page</a></li>
+          </ul>
+        </article>
+
+        <article class="project" id="roboterapia">
+          <p class="project-ids"><span class="project-tag">Roboterapia</span><span class="project-grant">PI10/02567</span></p>
+          <h3 class="project-title">Roboterapia en Demencia</h3>
+          <p class="project-meta">Universidad Rey Juan Carlos · 2011 – 2013 · PI: José María Cañas Plaza</p>
+          <p class="project-desc">Social robots as a therapeutic tool for people with dementia.</p>
+          <ul class="paper-links">
+            <li><a class="pl pl-page" aria-disabled="true" title="Coming soon">Project page</a></li>
+          </ul>
+        </article>
+
+        <article class="project" id="robocity2030-ii">
+          <p class="project-ids"><span class="project-tag">RoboCity2030-II</span><span class="project-grant">2010/00109/001</span></p>
+          <h3 class="project-title">Robots de servicios para la calidad de vida de los ciudadanos en áreas metropolitanas (Robocity2030-II)</h3>
+          <p class="project-meta">Comunidad de Madrid · 2010 – 2013 · PI: José María Cañas Plaza</p>
+          <p class="project-desc">Service robots to improve the quality of life of citizens in metropolitan areas.</p>
+          <ul class="paper-links">
+            <li><a class="pl pl-page" aria-disabled="true" title="Coming soon">Project page</a></li>
+          </ul>
+        </article>
+
+        <article class="project" id="dpi2007-66556-c03-01">
+          <p class="project-ids"><span class="project-grant">DPI2007-66556-C03-01</span></p>
+          <h3 class="project-title">Generación de comportamientos cooperantes en grupos de robots móviles</h3>
+          <p class="project-meta">CICyT · Oct 2007 – Aug 2010 · PI: José María Cañas Plaza</p>
+          <p class="project-desc">Generation of cooperative behaviours in groups of mobile robots.</p>
+          <ul class="paper-links">
+            <li><a class="pl pl-page" aria-disabled="true" title="Coming soon">Project page</a></li>
+          </ul>
+        </article>
+
+        <article class="project" id="mavrom">
+          <p class="project-ids"><span class="project-tag">MAVROM</span><span class="project-grant">URJC-CM-2007-CET-1694</span></p>
+          <h3 class="project-title">MAVROM: Mecanismos de atención visual en robots móviles</h3>
+          <p class="project-meta">Universidad Rey Juan Carlos · 2008 · PI: José María Cañas Plaza</p>
+          <p class="project-desc">Visual attention mechanisms for mobile robots.</p>
+          <ul class="paper-links">
+            <li><a class="pl pl-page" aria-disabled="true" title="Coming soon">Project page</a></li>
+          </ul>
+        </article>
+
+        <article class="project" id="robocampeones-2007">
+          <p class="project-ids"><span class="project-tag">Robocampeones 2007</span><span class="project-grant">CCT005-06-00275</span></p>
+          <h3 class="project-title">Robocampeones 2007</h3>
+          <p class="project-meta">Comunidad de Madrid · 2007 · PI: José María Cañas Plaza</p>
+          <p class="project-desc">Robotics competition to bring robotics to secondary-school students.</p>
+          <ul class="paper-links">
+            <li><a class="pl pl-page" aria-disabled="true" title="Coming soon">Project page</a></li>
+          </ul>
+        </article>
+
+        <article class="project" id="robocity2030">
+          <p class="project-ids"><span class="project-tag">RoboCity2030</span><span class="project-grant">S-0505/DPI/0176</span></p>
+          <h3 class="project-title">RoboCity 2030</h3>
+          <p class="project-meta">Comunidad de Madrid · 2006 – 2009 · PI: José María Cañas Plaza</p>
+          <p class="project-desc">First RoboCity2030 programme on service robots for the citizens of Madrid.</p>
+          <ul class="paper-links">
+            <li><a class="pl pl-page" aria-disabled="true" title="Coming soon">Project page</a></li>
+          </ul>
+        </article>
+
+        <article class="project" id="acrace">
+          <p class="project-ids"><span class="project-tag">ACRACE</span><span class="project-grant">DPI2004-07993-C03-01</span></p>
+          <h3 class="project-title">ACRACE: Arquitectura para el control de robots autónomos cooperantes basada en esquemas</h3>
+          <p class="project-meta">CICyT · Dec 2004 – Dec 2007 · PI: Vicente Matellán Olivera</p>
+          <p class="project-desc">A schema-based architecture to control cooperating autonomous robots.</p>
+          <ul class="paper-links">
+            <li><a class="pl pl-page" aria-disabled="true" title="Coming soon">Project page</a></li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="tab-panel" id="open-source">
+        <h2>Open source</h2>
+        <p class="tab-intro">Open-source software developed and maintained by the lab.</p>
+        <!-- To add one: copy an <article class="project"> block of this section. -->
+
+        <article class="project" id="os-plansys2">
+          <p class="project-ids"><span class="project-tag">PlanSys2</span></p>
+          <h3 class="project-title">ROS 2 Planning System</h3>
+          <p class="project-desc">PDDL-based symbolic task planning for ROS 2. The reference planning framework in the ROS 2 ecosystem.</p>
+          <ul class="paper-links">
+            <li><a class="pl pl-gh" href="https://github.com/PlanSys2/ros2_planning_system" target="_blank" rel="noopener">GitHub repository</a></li>
+            <li><a class="pl pl-web" href="https://plansys2.github.io/" target="_blank" rel="noopener">Documentation</a></li>
+          </ul>
+        </article>
+
+        <article class="project" id="os-easynav">
+          <p class="project-ids"><span class="project-tag">EasyNav</span></p>
+          <h3 class="project-title">EasyNavigation</h3>
+          <p class="project-desc">Open-source navigation system for ROS 2: representation-agnostic (costmaps, gridmaps, Octomap, point clouds), real-time, modular and simple to deploy.</p>
+          <ul class="paper-links">
+            <li><a class="pl pl-gh" href="https://github.com/EasyNavigation/EasyNavigation" target="_blank" rel="noopener">GitHub repository</a></li>
+            <li><a class="pl pl-web" href="https://easynavigation.github.io/" target="_blank" rel="noopener">Documentation</a></li>
+          </ul>
+        </article>
+
+        <article class="project" id="os-navmap">
+          <p class="project-ids"><span class="project-tag">NavMap</span></p>
+          <h3 class="project-title">NavMap</h3>
+          <p class="project-desc">C++ and ROS 2 library that represents navigable surfaces as triangular meshes, with layers, fast queries and multi-floor support.</p>
+          <ul class="paper-links">
+            <li><a class="pl pl-gh" href="https://github.com/EasyNavigation/NavMap" target="_blank" rel="noopener">GitHub repository</a></li>
+          </ul>
+        </article>
+
+        <article class="project" id="os-mocap4ros2">
+          <p class="project-ids"><span class="project-tag">MOCAP4ROS2</span></p>
+          <h3 class="project-title">MOCAP4ROS2</h3>
+          <p class="project-desc">Standard interfaces, drivers and tools to use motion capture systems (Vicon, OptiTrack, Qualisys) in ROS 2.</p>
+          <ul class="paper-links">
+            <li><a class="pl pl-gh" href="https://github.com/MOCAP4ROS2-Project" target="_blank" rel="noopener">GitHub repository</a></li>
+            <li><a class="pl pl-web" href="https://mocap4ros2-project.github.io/" target="_blank" rel="noopener">Documentation</a></li>
+            <li><a class="pl pl-page" href="projects/mocap4ros2/">Funded project</a></li>
+          </ul>
+        </article>
+
+        <article class="project" id="os-yaets">
+          <p class="project-ids"><span class="project-tag">YAETS</span></p>
+          <h3 class="project-title">Yet Another Execution Tracing System</h3>
+          <p class="project-desc">Asynchronous C++ function-execution tracing, with Python tools to analyse the results as Gantt charts and histograms.</p>
+          <ul class="paper-links">
+            <li><a class="pl pl-gh" href="https://github.com/fmrico/yaets" target="_blank" rel="noopener">GitHub repository</a></li>
+          </ul>
+        </article>
+
+        <article class="project" id="os-cascade-lifecycle">
+          <p class="project-ids"><span class="project-tag">cascade_lifecycle</span></p>
+          <h3 class="project-title">Cascade Lifecycle</h3>
+          <p class="project-desc">Activation trees of ROS 2 lifecycle (managed) nodes: a node&#x27;s state changes propagate to the nodes that depend on it.</p>
+          <ul class="paper-links">
+            <li><a class="pl pl-gh" href="https://github.com/fmrico/cascade_lifecycle" target="_blank" rel="noopener">GitHub repository</a></li>
+          </ul>
+        </article>
+      </section>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">Copyright© 2025 - Intelligent Robotics Lab</div>
+</footer>
+<script src="js/tabs.js"></script>
+</body>
+</html>

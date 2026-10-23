@@ -1,31 +1,222 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Intelligent Robotics Lab</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            font-family: sans-serif;
-            background-color: #f5f5f5;
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Intelligent Robotics Lab – Universidad Rey Juan Carlos</title>
+  <meta name="description" content="The Intelligent Robotics Lab at Universidad Rey Juan Carlos (Fuenlabrada, Madrid) researches human-robot interaction, robot perception, autonomous navigation, task planning and ROS 2." />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Intelligent Robotics Lab – Universidad Rey Juan Carlos" />
+  <link rel="canonical" href="https://intelligentroboticslabs.github.io/" />
+
+  <!-- Open Graph / social sharing -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Intelligent Robotics Lab" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:title" content="Intelligent Robotics Lab – Universidad Rey Juan Carlos" />
+  <meta property="og:description" content="The Intelligent Robotics Lab at Universidad Rey Juan Carlos (Fuenlabrada, Madrid) researches human-robot interaction, robot perception, autonomous navigation, task planning and ROS 2." />
+  <meta property="og:url" content="https://intelligentroboticslabs.github.io/" />
+  <meta property="og:image" content="https://intelligentroboticslabs.github.io/img/og_group.jpg" />
+  <meta property="og:image:alt" content="Intelligent Robotics Lab" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Intelligent Robotics Lab – Universidad Rey Juan Carlos" />
+  <meta name="twitter:description" content="The Intelligent Robotics Lab at Universidad Rey Juan Carlos (Fuenlabrada, Madrid) researches human-robot interaction, robot perception, autonomous navigation, task planning and ROS 2." />
+  <meta name="twitter:image" content="https://intelligentroboticslabs.github.io/img/og_group.jpg" />
+
+  <!-- Structured data (schema.org) -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ResearchOrganization",
+      "@id": "https://intelligentroboticslabs.github.io/#organization",
+      "name": "Intelligent Robotics Lab",
+      "alternateName": [
+        "IRL",
+        "Intelligent Robotics Lab URJC"
+      ],
+      "url": "https://intelligentroboticslabs.github.io/",
+      "logo": "https://intelligentroboticslabs.github.io/img/logo.png",
+      "image": "https://intelligentroboticslabs.github.io/img/hero.jpg",
+      "description": "Research group at Universidad Rey Juan Carlos working on human-robot interaction, perception, navigation, task planning and ROS 2.",
+      "parentOrganization": {
+        "@type": "CollegeOrUniversity",
+        "name": "Universidad Rey Juan Carlos",
+        "url": "https://www.urjc.es/"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Escuela de Ingeniería de Fuenlabrada, Camino del Molino 5",
+        "addressLocality": "Fuenlabrada",
+        "addressRegion": "Madrid",
+        "postalCode": "28942",
+        "addressCountry": "ES"
+      },
+      "founder": {
+        "@id": "https://intelligentroboticslabs.github.io/team.html#francisco-martin-rico"
+      },
+      "sameAs": [
+        "https://github.com/IntelligentRoboticsLabs"
+      ],
+      "knowsAbout": [
+        "Robotics",
+        "ROS 2",
+        "Human-Robot Interaction",
+        "Robot Perception",
+        "Autonomous Navigation",
+        "Task Planning",
+        "Cognitive Architectures",
+        "Behavior Trees",
+        "SLAM",
+        "Artificial Intelligence"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://intelligentroboticslabs.github.io/#website",
+      "url": "https://intelligentroboticslabs.github.io/",
+      "name": "Intelligent Robotics Lab",
+      "publisher": {
+        "@id": "https://intelligentroboticslabs.github.io/#organization"
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://intelligentroboticslabs.github.io/#webpage",
+      "url": "https://intelligentroboticslabs.github.io/",
+      "name": "Intelligent Robotics Lab – Universidad Rey Juan Carlos",
+      "description": "The Intelligent Robotics Lab at Universidad Rey Juan Carlos (Fuenlabrada, Madrid) researches human-robot interaction, robot perception, autonomous navigation, task planning and ROS 2.",
+      "isPartOf": {
+        "@id": "https://intelligentroboticslabs.github.io/#website"
+      },
+      "about": {
+        "@id": "https://intelligentroboticslabs.github.io/#organization"
+      },
+      "inLanguage": "en",
+      "primaryImageOfPage": "https://intelligentroboticslabs.github.io/img/og_group.jpg"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://intelligentroboticslabs.github.io/"
         }
-        a {
-            font-size: 1.5rem;
-            color: #0044cc;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+      ]
+    }
+  ]
+}
+  </script>
+
+  <meta name="theme-color" content="#D30015" />
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <a href="https://intelligentroboticslab.gsyc.urjc.es/" target="_blank">
-        Ir al Intelligent Robotics Lab
-    </a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="index.html"><img src="img/logo.png" alt="Intelligent Robotics Lab logo" width="190" height="70" /></a>
+    <div class="header-right">
+      <a class="btn" href="https://github.com/IntelligentRoboticsLabs" target="_blank" rel="noopener">Check our GitHub!</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation"><span></span></label>
+      <nav class="main-nav" aria-label="Main">
+        <ul>
+          <li><a href="team.html">Our Team</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="projects.html">Projects</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<section class="hero" aria-label="Intelligent Robotics Lab group photo">
+  <h1 class="visually-hidden">Intelligent Robotics Lab – Universidad Rey Juan Carlos</h1>
+  <div class="hero-text">
+    <p>At the Intelligent Robotics Lab, our research is driven by the challenge of solving complex robotics problems, fusing AI, automation, and perception to push the field forward.</p>
+  </div>
+</section>
+
+<main>
+  <section class="section">
+    <div class="container card-grid">
+
+      <article class="card">
+        <img src="img/research/hri.jpg" alt="Human-Robot interaction research at the Intelligent Robotics Lab" loading="lazy" />
+        <div class="card-body">
+          <h2>Human-Robot interaction</h2>
+          <p>Designing robots that understand and respond to human emotions and social cues. We enable intuitive, empathetic interactions for applications in the fields of social and medical robotics.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="img/research/perception.jpg" alt="Perception Systems research at the Intelligent Robotics Lab" loading="lazy" />
+        <div class="card-body">
+          <h2>Perception Systems</h2>
+          <p>Building systems that allow robots to see, and understand the world accurately. Our work focuses on object detection, SLAM, and visual attention using onboard cameras and LiDAR sensors.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="img/research/navigation.jpg" alt="Navigation research at the Intelligent Robotics Lab" loading="lazy" />
+        <div class="card-body">
+          <h2>Navigation</h2>
+          <p>Developing autonomous navigation that adapts to dynamic environments. We enable safe, efficient movement in real-world settings, both in indoor and outdoor environments.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="img/research/planning.jpg" alt="Task Planning research at the Intelligent Robotics Lab" loading="lazy" />
+        <div class="card-body">
+          <h2>Task Planning</h2>
+          <p>Creating intelligent planning for complex, multi-step tasks. Our research helps robots prioritize and execute goals independently through innovative cognitive architectures.</p>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="section-tight">
+    <div class="container info-grid">
+      <div class="info-box">
+        <h2>About us</h2>
+        <p>At the <strong>Intelligent Robotics Lab</strong>, we push the boundaries of robotics and artificial intelligence to create smarter, more adaptable, and human-centered robotic systems. Our interdisciplinary team of researchers and engineers specializes in cutting-edge fields such as robotics, computer vision, human-robot interaction, and autonomous systems.</p>
+        <p>Through innovative research and real-world applications, we aim to develop intelligent robots that enhance daily life and contribute to scientific advancements. Our collaborations with other universities, industrial actors, and international institutions drive our mission to shape the future of robotics.</p>
+      </div>
+      <div class="info-box">
+        <h2>Located at the south of Madrid</h2>
+        <p>As a research group, we belong to the <strong>School of Engineering</strong> at <strong>Universidad Rey Juan Carlos</strong>, in Fuenlabrada (Spain).</p>
+        <iframe src="https://maps.google.com/maps?q=eif%20urjc%20fuenlabrada&amp;t=m&amp;z=10&amp;output=embed&amp;iwloc=near" title="eif urjc fuenlabrada" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-tight">
+    <div class="container">
+      <div class="stats">
+        <div><span class="num">12</span><span class="label">RESEARCH MEMBERS</span></div>
+        <div><span class="num">4</span><span class="label">EU PROJECTS</span></div>
+        <div><span class="num">&gt;1M€</span><span class="label">OF PUBLIC FUNDING</span></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">Copyright© 2025 - Intelligent Robotics Lab</div>
+</footer>
+
 </body>
 </html>
