@@ -81,7 +81,7 @@ Every page has a description, canonical URL, Open Graph / Twitter tags and schem
 (research organization, people, scholarly articles, breadcrumbs). `sitemap.xml` and `robots.txt`
 are at the root.
 
-The canonical domain is `https://intelligentroboticslabs.github.io/`. If the site moves to another
-domain (e.g. `intelligentroboticslab.gsyc.urjc.es`), replace that URL in all `.html` files,
-`robots.txt` and `sitemap.xml`, and add a `CNAME` file. When you change content, update
+The canonical domain is `https://intelligentroboticslab.gsyc.urjc.es/` (set in the `CNAME` file;
+`intelligentroboticslabs.github.io` redirects to it). If the domain changes, replace that URL in all
+`.html` files, `robots.txt` and `sitemap.xml`, and update `CNAME`. When you change content, update
 `<lastmod>` in `sitemap.xml`. Register the site in Google Search Console and submit the sitemap.

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://intelligentroboticslabs.github.io/sitemap.xml
+Sitemap: https://intelligentroboticslab.gsyc.urjc.es/sitemap.xml
